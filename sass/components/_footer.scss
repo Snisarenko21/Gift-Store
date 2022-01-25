@@ -1,9 +1,10 @@
 .footer-block {
   display: flex;
   justify-content: center;
-  width: 100%;
+  width: 1000px;
   border-bottom: 1px solid $pramery-site-color;
   padding-bottom: 43px;
+  margin-left: 220px;
 }
 .footer-block__list {
   display: flex;

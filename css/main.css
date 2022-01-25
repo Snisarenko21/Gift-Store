@@ -505,7 +505,7 @@ footer .container {
   margin-right: 31px;
 }
 
-.socials .container {
+.socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

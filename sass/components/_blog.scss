@@ -24,7 +24,6 @@
 .post__mainpost {
   display: flex;
   margin-bottom: 40px;
-
   transition: box-shadow 1000ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -41,9 +40,7 @@
 .main-post__author {
   font-size: 14px;
   line-height: 1.2;
-
-  color: white;
-
+  color: $third-site-color;
   margin-bottom: 27px;
 }
 
@@ -51,21 +48,18 @@
   max-width: 492px;
   font-size: 48px;
   line-height: 1.2;
-
-  color: white;
-
+  color: $third-site-color;
   margin-bottom: 60px;
 }
 .main-post__link {
   text-decoration: none;
   font-size: 18px;
   line-height: 1.2;
-  color: white;
-
+  color: $third-site-color;
   transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .main-post__link:hover {
-  color: orange;
+  color: $secondary-site-color;
 }
 
 .post__list {
@@ -74,7 +68,6 @@
 
 .post__item {
   padding: 48px 48px 50px 48px;
-
   transition: box-shadow 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .post__item:hover,
@@ -105,10 +98,9 @@
   line-height: 1.2;
   text-decoration: none;
   color: $pramery-site-color;
-
   transition: color 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .post__link:hover {
-  color: orange;
+  color: $secondary-site-color;
 }

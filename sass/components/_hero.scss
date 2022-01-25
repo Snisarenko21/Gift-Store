@@ -1,10 +1,7 @@
-.hero {
-}
-
 .hero .container {
   display: flex;
   justify-content: space-between;
-  background-color: #f1f1f2;
+  background-color: $secondary-bg-color;
 }
 
 .hero__content {
@@ -24,8 +21,8 @@
 // }
 
 .btn.secondary__btn {
-  color: #ffffff;
-  background-color: #f7941e;
+  color: $third-site-color;
+  background-color: $secondary-site-color;
   padding: 23px 24px 18px 24px;
 }
 
@@ -44,11 +41,11 @@
 
   text-transform: uppercase;
   // color: #f7941e;
-  background-color: #ffffff;
-  border: 1px solid #f7941e;
+  background-color: $primary-bg-color;
+  border: 1px solid $secondary-site-color;
   border-radius: 5px;
-  color: #ffffff;
-  background-color: #f7941e;
+  color: $third-site-color;
+  background-color: $secondary-site-color;
   padding: 23px 24px 18px 24px;
 }
 

@@ -3,9 +3,7 @@
 
 .skills .container {
   display: flex;
-  /* justify-content: space-between; */
-
-  background-color: #f1f1f2;
+  background-color: $secondary-bg-color;
 }
 
 .skills__wrapper {
@@ -31,5 +29,15 @@
 }
 
 .btn__thid {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1.2;
+  // padding: 14px 24px 8px 24px;
+  text-transform: uppercase;
+  color: $secondary-site-color;
+  background-color: $primary-bg-color;
+  border: 1px solid $secondary-site-color;
+  border-radius: 5px;
   padding: 21px 46px 17px 47px;
 }

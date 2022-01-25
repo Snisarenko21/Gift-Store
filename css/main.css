@@ -442,19 +442,6 @@ header .container {
   color: orange;
 }
 
-footer .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding: 0 34px 0 80px;
-}
-
 .footer-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -464,7 +451,7 @@ footer .container {
           justify-content: center;
   width: 100%;
   border-bottom: 2px solid #212121;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .footer-block__box {
@@ -509,7 +496,10 @@ footer .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 50px;
 }
 
 .social-follow {

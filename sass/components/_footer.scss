@@ -10,7 +10,7 @@
   justify-content: center;
   width: 100%;
   border-bottom: 2px solid $pramery-site-color;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .footer-block__box {
   display: inline-flex;
@@ -40,8 +40,10 @@
 }
 .socials {
   display: flex;
+  justify-content: center;
 
-  margin-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 72px;
 }
 .social-follow {
   display: inline-flex;
